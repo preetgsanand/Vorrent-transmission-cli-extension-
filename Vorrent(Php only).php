@@ -80,9 +80,9 @@ _END;
 	chdir('/home/jeet');
 
 	echo "\n\nStarting transmission-cli and adding torrent";
-	$cmd = sprintf('nohup transmission-cli -w /home/jeet/Downloads/ -f /home/jeet/Documents/php_work/Vorrent/Vorrent_close.sh %s &', $magnet_link);
+	$cmd = sprintf('nohup transmission-cli -w ~/Downloads/ -f ~/Documents/git/Vorrent-transmission-cli-extension-/Vorrent_close.sh %s &', $magnet_link);
 	echo "\n\nDownloading....Please Wait Till It Finishes\n";
 	echo shell_exec($cmd)."\n\n";
 	
-	echo "\n\nDownloaded to /home/jeet/Downloads";
+	echo "\n\nDownloaded to ~/Downloads";
 ?>	
