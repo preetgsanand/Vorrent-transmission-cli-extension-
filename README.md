@@ -10,7 +10,7 @@ Features :
 
 
 Status : 
-The projects is in pre-alpha stage. Bsic functionality is included.
+The projects is in pre-alpha stage. Basic functionality is included.
 
 Sharing and Contributing :
 Feel free to share and contribute since the expansion of the project is out of my knowledge base as of now.
